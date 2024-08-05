@@ -5,3 +5,12 @@ h1, h2, .block{
 a.lume:hover{
     color: aqua;
 }
+p{
+    color: teal;
+}
+.secondo{
+    color: indianred;
+}
+#primo{
+    color: orange;
+}
