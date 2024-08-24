@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+
+.EsPadding{
+    padding-top: 20px;
+    padding-left: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid red;
+}
+
+.InlineBlock ul li{
+    display: inline-block;
+}
+
+.inline-Vs-Block p span{
+    border: 3px solid yellow;
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+}
+
+.inline-Vs-Block p .uno{
+    display: inline;
+}
+
+.inline-Vs-Block p .due{
+    display: inline-block;
+}
+
+.inline-Vs-Block p .tre{
+    display: block;
+}
