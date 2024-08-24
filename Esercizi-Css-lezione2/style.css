@@ -1,0 +1,80 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+h1{
+color: red;
+}
+
+h2{
+color: yellow;
+}
+
+h3{
+color: green;
+}
+
+h4{
+color: blue;
+}
+
+h5{
+color: violet;
+}
+
+h6{
+color: brown;
+}
+
+#Noob{
+    background-color: black;
+}
+
+.supp{
+    font-size: 30px;
+}
+
+.class2{
+    font-size: 60px;
+}
+
+h1, h2, .block{
+    font-size: 100px;
+    color: red;
+}
+
+a.lume:hover{
+    color: aqua;
+}
+
+ul li:last-child{
+    background-color: rebeccapurple;
+}
+
+p{
+    color: teal;
+}
+.secondo{
+    color: indianred;
+}
+#primo{
+    color: orange;
+}
+
+p.rgb{
+    color: rgb(255, 0, 0);
+}
+
+p.hex{
+    color: #ff0000
+}
+
+p.rgba{
+    color:hsl(0, 100%, 70%)
+}
+
+p.color{
+    color: red;
+}
