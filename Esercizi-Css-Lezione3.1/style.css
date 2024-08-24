@@ -1,0 +1,149 @@
+:root{
+    --global-font-size: 16px;
+    --col-base-w: calc(100% / 12);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    height: 1500px;
+}
+
+.wrapper{
+    width: 97%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid black;
+    flex-direction: column;
+}
+
+.wrapper .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper .container .row {
+    display: flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    margin-top: 20px;
+    height: 6rem;
+    background-color: rgb(206, 165, 165);   
+}
+
+nav{
+    margin-top: 10px;
+    height: 3rem;
+    background-color: rgb(206, 165, 165);
+}
+
+header p{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+nav p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+main{
+    margin-top: 10px;
+    border: none !important;
+}
+
+.content{
+    width: 100%;
+    height: 20rem;
+    background-color: rgb(206, 165, 165);
+    border: 2px solid black;
+}
+
+.as1{
+    margin-right: 10px;
+}
+
+.as2{
+    margin-left: 10px;
+}
+
+.center p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+footer{
+    margin-top: 10px;
+    height: 3rem;
+    background-color: rgb(206, 165, 165);
+}
+
+footer p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.col-1 {
+    width: var(--col-base-w)
+}
+
+.col-2 {
+    width: calc(var(--col-base-w) * 2);
+}
+
+.col-3 {
+    width: calc(var(--col-base-w) * 3);
+}
+
+.col-4 {
+    width: calc(var(--col-base-w) * 4);
+}
+
+.col-5 {
+    width: calc(var(--col-base-w) * 5);
+}
+
+.col-6 {
+    width: calc(var(--col-base-w) * 6);
+}
+
+.col-7 {
+    width: calc(var(--col-base-w) * 7);
+}
+
+.col-8 {
+    width: calc(var(--col-base-w) * 8);
+}
+
+.col-9 {
+    width: calc(var(--col-base-w) * 9);
+}
+
+.col-10 {
+    width: calc(var(--col-base-w) * 10);
+}
+
+.col-11 {
+    width: calc(var(--col-base-w) * 11);
+}
+
+.col-12 {
+    width: calc(var(--col-base-w) * 12);
+}
