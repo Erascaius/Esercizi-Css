@@ -1,0 +1,35 @@
+.grid-template{
+    display: grid;
+    width: 100%;
+    height: 300px;
+    grid-template: 
+    "nav nav head head head" 1fr
+    "aside main main main footer" 2fr / 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    line-height: 10rem;
+}
+
+.head{
+    background-color: red;
+    grid-area: head;
+}
+
+.nav{
+    background-color: green;
+    grid-area: nav;
+}
+
+.main{
+    background-color: blueviolet;
+    grid-area: main;
+}
+
+.aside{
+    background-color: blue;
+    grid-area: aside;
+}
+
+.footer{
+    background-color: yellow;
+    grid-area: footer;
+}
