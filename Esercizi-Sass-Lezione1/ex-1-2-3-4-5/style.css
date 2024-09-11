@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, li, a {
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+}
+
+.bg, nav .container a:last-child {
+  background-color: #e7e7e7;
+}
+
+nav {
+  width: 100%;
+}
+nav .container {
+  max-width: 70rem;
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+nav .container a {
+  font-size: 18px;
+  padding: 1rem;
+}
+nav .container a:hover {
+  color: #ff0000;
+}
+nav .container a:last-child {
+  border-color: #333333;
+}
+
+header {
+  width: 100%;
+  display: flex;
+}
+header .container {
+  max-width: 70rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-right: auto;
+  margin-left: auto;
+}
+header .container .testo {
+  text-align: center;
+  padding: 1rem;
+}
+header .container .uno {
+  width: 33.3333333333%;
+}
+header .container .due {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
