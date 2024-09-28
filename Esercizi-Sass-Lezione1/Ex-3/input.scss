@@ -1,0 +1,18 @@
+//theme//
+@mixin theme($switch) {
+    background-color: $switch;
+    color: white;
+
+}
+
+//converter//
+@function converter($pixel , $fontsize){
+    @return calc($pixel / $fontsize)+em;
+}
+
+//theme//
+.wrapper{
+    @include theme(black);
+    height: converter(200px , 16px);
+}
+
